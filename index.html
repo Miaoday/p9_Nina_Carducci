@@ -66,13 +66,41 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img fetchpriority="high" src="./assets/images/slider/ryoji-iwata.webp" class="d-block w-100" alt="slide-image">
+				<img 
+				fetchpriority="high" 
+				src="./assets/images/slider/ryoji-iwata-640p.webp" 
+				srcset="./assets/images/slider/ryoji-iwata-640p.webp 640w,
+						./assets/images/slider/ryoji-iwata-1280p.webp 1280w,
+						./assets/images/slider/ryoji-iwata-1920p.webp 1920w"
+				sizes=100vw
+				layout="responsive"
+				class="d-block w-100" alt="photo_de_entreprises"
+				>
+				
 			</div>
 			<div class="carousel-item">
-				<img fetchpriority="high" src="./assets/images/slider/nicholas-green.webp" class="d-block w-100" alt="slide-image">
+				<img 
+				loading="lazy" 
+				src="./assets/images/slider/nicholas-green-640p.webp" 
+				srcset="./assets/images/slider/nicholas-green-640p.webp 640w,
+						./assets/images/slider/nicholas-green-1280p.webp 1280w,
+						./assets/images/slider/nicholas-green-1920p.webp 1920w"
+				sizes=100vw
+				layout="responsive"
+				class="d-block w-100" alt="photo_de_concerts"
+				>
 			</div>
 			<div class="carousel-item">
-				<img loading="lazy" src="./assets/images/slider/edward-cisneros.webp" class="d-block w-100" alt="slide-image">
+				<img 
+				loading="lazy" 
+				src="./assets/images/slider/edward-cisneros-640p.webp" 
+				srcset="./assets/images/slider/edward-cisneros-640p.webp 640w,
+						./assets/images/slider/edward-cisneros-1280p.webp 1280w,
+						./assets/images/slider/edward-cisneros-1920p.webp 1920w"
+				sizes=100vw
+				layout="responsive"
+				class="d-block w-100" alt="photo_de_mariage"
+				>
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -92,9 +120,18 @@
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
-		<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
-		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
-			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+		<span class="about-me__introduction">Devenir photographe était pour moi une évidence. 
+			Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, 
+			un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.
+		</span>
+		<p>Nous passons notre vie à chercher le bonheur, 
+			et lorsque nous y touchons, nous n’avons qu’une envie : 
+			le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, 
+			ou le partager au plus grand nombre.
+			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, 
+			mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, 
+			de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.
+		</p>
 	</div>
 </div>
 <div id="gallery">
@@ -114,8 +151,8 @@
 	</div>
 	<div class="quote">
 		<figure>
-			<blockquote>
-				<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+			<blockquote class="quote__text">
+				Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>

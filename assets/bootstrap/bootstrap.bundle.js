@@ -2433,7 +2433,7 @@
       } // $FlowFixMe[incompatible-cast]: force type refinement, we compare offsetParent with window above, but Flow doesn't detect it
 
 
-      offsetParent = offsetParent;
+      offsetParent = newFunction(offsetParent);
 
       if (placement === top || (placement === left || placement === right) && variation === end) {
         sideY = bottom; // $FlowFixMe[prop-missing]
@@ -2461,6 +2461,10 @@
     }
 
     return Object.assign({}, commonStyles, (_Object$assign2 = {}, _Object$assign2[sideY] = hasY ? y + "px" : '', _Object$assign2[sideX] = hasX ? x + "px" : '', _Object$assign2.transform = '', _Object$assign2));
+  }
+
+  function newFunction(offsetParent) {
+    return offsetParent;
   }
 
   function computeStyles(_ref4) {
