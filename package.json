@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "purgecss-webpack-plugin": "^5.0.0",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0"
+  }
+}
